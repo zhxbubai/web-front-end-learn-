@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <base href="https://www.baidu.com" target="_blank">
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+    <!--link定义了文档与外部资源的关系，此处未成功渲染h1和p-->
+
+    <style type="text/css">
+    h1{color: blue;}
+    p{color: red;}
+    </style>
+    <!--style 定义文档的样式信息-->
+</head>
+<body>
+    <p><a href="https://www.douyu.com">这是一个链接</a></p>
+    <!--在这里没有加target也在新窗口打开，因为base里已经注明-->
+    <h1>css渲染 </h1>
+    <p>一个段落</p>
+    <script>document.write("hello world")</script>
+    <!--script 用于加载脚本文件-->
+    
+</body>
+
+</html>
